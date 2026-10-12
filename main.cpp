@@ -22,14 +22,16 @@ int main() {
   }
 
   cout << "Array:" << endl;
-for (int i = 0; i < 4; i++ ) {
 
-cout << "[" << i << "] " << values[i] << endl;
+  //traverses index
+  for (int i = 0; i < 4; i++ ) {
+
+cout << "[" << i << "] " << values[i] << endl; 
 }
 
 cout << "Evens: ";
 
-for (int i = 0; i < 4; ++i) //traverses index
+for (int i = 0; i < 4; ++i) 
   
 {
 if (values[i] % 2 == 0){
@@ -41,7 +43,7 @@ cout << values[i] << " ";
   
 cout << endl << "Odds: ";
 
-for (int i = 0; i < 4; ++i) //traverses index
+for (int i = 0; i < 4; ++i) 
   
 {
 if (values[i] % 2 == 1){
